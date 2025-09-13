@@ -20,12 +20,22 @@ fonts:
 - Nguyễn Thái Gia Nguyễn
 
 ---
-##src: ./pages/01-introduction.md
-hide: false
+layout: section
 ---
+
+# Giới thiệu về Incremental Model
+
+---
+src: ./pages/01-introduction.md
+---
+
+---
+layout: section
+---
+
+# Các giai đoạn của Incremental Model
 
 ---
 src: ./pages/02-phases.md
 ---
-
 

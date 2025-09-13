@@ -1,5 +1,11 @@
 ---
-layout: section
+transition: fade
 ---
 
-# Các giai đoạn của Incremental Model
+# Hehe
+
+---
+transition: fade-out
+---
+
+# Hehe
