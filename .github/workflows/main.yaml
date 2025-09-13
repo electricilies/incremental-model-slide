@@ -76,7 +76,7 @@ jobs:
       - name: Upload PDF to Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ github.sha }}
+          tag_name: build-${{ github.sha }}
           name: "Build ${{ github.sha }}"
           draft: false
           prerelease: false
