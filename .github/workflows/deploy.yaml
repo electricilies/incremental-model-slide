@@ -30,7 +30,10 @@ jobs:
 
       - name: Install dependencies
         run: nci
-
+        
+      - name: Install Playwright-chromium
+        run: nci playwright-chromium
+        
       - name: Build site
         run: nr build --base /${{ github.event.repository.name }}/
 
