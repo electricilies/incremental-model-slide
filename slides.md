@@ -2,12 +2,13 @@
 theme: apple-basic
 layout: intro
 colorSchema: light
-author: 'Bugbilles'
+author: "Bugbilles"
 fonts:
   sans: Robot
   serif: Robot Slab
   mono: Fira Code
 ---
+
 # Incremental Model
 
 ## Môn học: Kiểm chứng phần mềm
@@ -38,6 +39,7 @@ layout: section
 ---
 src: ./pages/02-phases.md
 ---
+
 ---
 layout: section
 ---
@@ -47,6 +49,7 @@ layout: section
 ---
 src: ./pages/03-types.md
 ---
+
 ---
 layout: section
 ---
@@ -56,11 +59,12 @@ layout: section
 ---
 src: ./pages/04-when-to-use.md
 ---
+
 ---
 layout: section
 ---
 
-# Ưu và nhược điểm của Incremental Model 
+# Ưu và nhược điểm của Incremental Model
 
 ---
 src: ./pages/05-pros-and-cons.md
@@ -70,9 +74,8 @@ src: ./pages/05-pros-and-cons.md
 layout: section
 ---
 
-# So sánh giữa Incremental Model và Agile 
+# So sánh giữa Incremental Model và Agile
 
 ---
 src: ./pages/03-types.md
 ---
-
