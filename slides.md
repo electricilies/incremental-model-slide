@@ -38,4 +38,41 @@ layout: section
 ---
 src: ./pages/02-phases.md
 ---
+---
+layout: section
+---
+
+# Các loại của Incremental Model
+
+---
+src: ./pages/03-types.md
+---
+---
+layout: section
+---
+
+# Khi nào dùng Incremental Model
+
+---
+src: ./pages/04-when-to-use.md
+---
+---
+layout: section
+---
+
+# Ưu và nhược điểm của Incremental Model 
+
+---
+src: ./pages/05-pros-and-cons.md
+---
+
+---
+layout: section
+---
+
+# So sánh giữa Incremental Model và Agile 
+
+---
+src: ./pages/03-types.md
+---
 
