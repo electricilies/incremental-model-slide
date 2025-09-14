@@ -1,5 +1,5 @@
 ---
-theme: apple-basic
+theme: academic
 layout: intro
 colorSchema: light
 author: "Bugbilles"
@@ -27,7 +27,7 @@ layout: section
 # Giới thiệu về Incremental Model
 
 ---
-src: ./pages/01-introduction.md
+src: ./pages/introduction.md
 ---
 
 ---
@@ -37,7 +37,7 @@ layout: section
 # Các giai đoạn của Incremental Model
 
 ---
-src: ./pages/02-phases.md
+src: ./pages/phases.md
 ---
 
 ---
@@ -47,7 +47,7 @@ layout: section
 # Các loại của Incremental Model
 
 ---
-src: ./pages/03-types.md
+src: ./pages/types.md
 ---
 
 ---
@@ -57,7 +57,7 @@ layout: section
 # Khi nào dùng Incremental Model
 
 ---
-src: ./pages/04-when-to-use.md
+src: ./pages/when-to-use.md
 ---
 
 ---
@@ -67,7 +67,7 @@ layout: section
 # Ưu và nhược điểm của Incremental Model
 
 ---
-src: ./pages/05-pros-and-cons.md
+src: ./pages/pros-and-cons.md
 ---
 
 ---
@@ -77,5 +77,5 @@ layout: section
 # So sánh giữa Incremental Model và Agile
 
 ---
-src: ./pages/03-types.md
+src: ./pages/comparison.md
 ---
