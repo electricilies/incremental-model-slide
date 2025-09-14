@@ -10,6 +10,7 @@ on:
       - pages/**
       - components/**
       - snippets/**
+      - setup/**
       - package.json
 
 concurrency:
