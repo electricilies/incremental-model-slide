@@ -3,12 +3,10 @@ name: main
 on:
   workflow_dispatch:
   push:
-    branches: [main]
-
-permissions:
-  contents: write
-  pages: write
-  id-token: write
+    branches:
+      - main
+    tags:
+      - "v*"
 
 concurrency:
   group: pages
@@ -21,37 +19,25 @@ jobs:
       pdf-path: ${{ steps.export-pdf.outputs.pdf }}
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
-        with:
-          node-version: 'lts/*'
-
       - name: Setup @antfu/ni
         run: npm i -g @antfu/ni
-
       - name: Install dependencies
         run: nci
-
       - name: Install Playwright-chromium
         run: npm install -D playwright-chromium
-
       - name: Build site
         run: nr build --base /${{ github.event.repository.name }}/
-
       - name: Export PDF
         run: nr export
-
       - name: Setup Pages
         uses: actions/configure-pages@v4
-
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
-
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
         with:
-          name: slides-pdf
           path: slides-export.pdf
 
   deploy:
@@ -60,6 +46,9 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
@@ -67,18 +56,18 @@ jobs:
 
   release:
     runs-on: ubuntu-latest
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/')
     needs: build
+    permissions:
+      contents: write
     steps:
       - uses: actions/download-artifact@v4
-        with:
-          name: slides-pdf
-
       - name: Upload PDF to Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: build-${{ github.sha }}
-          name: "Build ${{ github.sha }}"
+          tag_name: ${{ github.ref_name }}
+          name: "${{ github.ref_name }}"
           draft: false
           prerelease: false
           files: |
-            slides-export.pdf
+            *.pdf
