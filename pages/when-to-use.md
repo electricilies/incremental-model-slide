@@ -6,12 +6,15 @@ class: text-center
 # Khi nào dùng Incremental Model
 
 ---
+layout: figure-side
 transition: slide-up
 hideInToc: true
+figureUrl: publics/images/incremental_model.jpg
 ---
 
-## Bla
+# Use Cases
 
-<!--
-Cho vi du nha
--->
+- When the requirements are well-defined and clear
+- If the project has a long development timeline
+- If the customer needs a quick product release
+- When you want to develop the most important features first
