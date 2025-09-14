@@ -82,21 +82,8 @@ Combination of Linear and Iterative Approaches: Combines the structured approach
 
 # Đặc điểm chính
 
-<hr>
-<ul class='text-3xl mt-10'>
-    <li>
-        Partial System Delivery
-    </li>
-    <li>
-        Early Functionality
-    </li>
-    <li>
-        Customer Feedback Loop
-    </li>
-    <li>
-        Flexible to Changes
-    </li>
-    <li>
-        Combination of Linear and Iterative Approaches
-    </li>
-</ul>
+- Partial System Delivery
+- Early Functionality
+- Customer Feedback Loop
+- Flexible to Changes
+- Combination of Linear and Iterative Approaches

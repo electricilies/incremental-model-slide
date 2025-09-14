@@ -4,7 +4,7 @@ class: text-white
 layout: cover
 coverBackgroundUrl: /assets/cover.jpeg
 colorSchema: light
-author: "Bugbilles"
+author: Buggilies
 coverAuthor: Group 6
 hideInToc: true
 fonts:
