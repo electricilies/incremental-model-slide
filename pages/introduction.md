@@ -3,6 +3,7 @@ transition: fade
 ---
 
 # Giới thiệu về Incremental Model
+
 <hr>
 <div class='mt-5'>
     <span v-click class='text-4xl leading-[1.5]'>
@@ -59,6 +60,7 @@ flowchart TB
     style E2 fill:#66cc66,stroke:#339933,color:#fff
     style E3 fill:#66cc66,stroke:#339933,color:#fff
 ```
+
 <div class='font-bold text-xl mt--2'>
     Incremental Model
 </div>
@@ -76,6 +78,7 @@ Combination of Linear and Iterative Approaches: Combines the structured approach
 -->
 
 # **Đặc điểm chính (Characteristics)**
+
 <hr>
 <ul class='text-3xl mt-10'>
     <li>
