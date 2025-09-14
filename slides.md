@@ -2,7 +2,7 @@
 theme: academic
 class: text-white
 layout: cover
-coverBackgroundUrl: /assets/cover.jpeg
+coverBackgroundUrl: publics/images/cover.jpeg
 colorSchema: light
 author: Buggilies
 coverAuthor: Group 6
