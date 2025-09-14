@@ -1,8 +1,11 @@
 ---
 theme: academic
-layout: intro
+class: bg-gray-900
+layout: cover
+coverBackgroundUrl: /image/cover.jpg
 colorSchema: light
 author: "Bugbilles"
+coverAuthor: Group 6
 fonts:
   sans: Robot
   serif: Robot Slab
@@ -10,21 +13,29 @@ fonts:
 ---
 
 # Incremental Model
-
-## Môn học: Kiểm chứng phần mềm
-
-**Thành viên nhóm:**
-
-- Trần Nguyễn Duy Minh
-- Đào Duy Vinh
-- **Trần Nguyễn Thái Bình**
-- Nguyễn Thái Gia Nguyễn
+## Kiểm chứng phần mềm
 
 ---
-layout: section
+class: text-2xl
+transition: fade
 ---
 
-# Giới thiệu về Incremental Model
+# **Mục lục**
+
+- I. Giới thiệu
+- II. Các giai đoạn của Incremental Model
+- III. Các loại của Incremental Model
+- IV. Khi nào sử dụng Incremental Model?
+- V. Ưu và nhược điểm
+- VI. So sánh Incremental và Waterfall
+
+---
+layout: center
+class: text-center text-l
+---
+
+# **GIỚI THIỆU VỀ INCREMENTAL MODEL**
+### Khái niệm, đặc điểm
 
 ---
 src: ./pages/introduction.md
