@@ -52,3 +52,7 @@ src: ./pages/pros-and-cons.md
 ---
 src: ./pages/comparison.md
 ---
+
+---
+src: ./pages/outro.md
+---
