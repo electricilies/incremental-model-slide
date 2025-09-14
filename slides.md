@@ -1,8 +1,8 @@
 ---
 theme: academic
-class: bg-gray-900
+class: text-white
 layout: cover
-coverBackgroundUrl: /image/cover.jpg
+coverBackgroundUrl: /assets/cover.jpeg
 colorSchema: light
 author: "Bugbilles"
 coverAuthor: Group 6
@@ -31,11 +31,11 @@ transition: fade
 
 ---
 layout: center
-class: text-center text-l
+class: text-center text-2xl
 ---
 
 # **GIỚI THIỆU VỀ INCREMENTAL MODEL**
-### Khái niệm, đặc điểm
+Khái niệm, đặc điểm
 
 ---
 src: ./pages/introduction.md

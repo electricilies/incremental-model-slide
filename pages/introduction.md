@@ -11,13 +11,13 @@ transition: fade
     <div></div>
     <ul class='text-3xl'>
         <li v-click>
-            Hệ thống được chia thành các <span class='text-red-300 font-bold'>module</span> nhỏ.
+            Hệ thống được chia thành các <span class='text-red-600 font-bold'>module</span> nhỏ.
         </li>
         <li v-click>
-            Mỗi module được phát triển, kiểm thử và <span class='text-red-300 font-bold'>triển khai độc lập</span> với nhau.
+            Mỗi module được phát triển, kiểm thử và <span class='text-red-600 font-bold'>triển khai độc lập</span> với nhau.
         </li>
         <li v-click>
-            Các module được tích hợp để tạo thành <span class='text-red-300 font-bold'>hệ thống hoàn chỉnh</span>.
+            Các module được tích hợp để tạo thành <span class='text-red-600 font-bold'>hệ thống hoàn chỉnh</span>.
         </li>
     </ul>
 </div>
@@ -45,22 +45,19 @@ flowchart TB
     D3 --> E3[Implementation]
 
     %% Styles
-    style A fill:#4da6ff,stroke:#fff,color:#fff
-    style B1 fill:#005f99,stroke:#fff,color:#fff
-    style B2 fill:#005f99,stroke:#fff,color:#fff
-    style B3 fill:#005f99,stroke:#fff,color:#fff
-    style C1 fill:#cc66ff,stroke:#fff,color:#fff
-    style C2 fill:#cc66ff,stroke:#fff,color:#fff
-    style C3 fill:#cc66ff,stroke:#fff,color:#fff
-    style D1 fill:#ffcc00,stroke:#fff,color:#000
-    style D2 fill:#ffcc00,stroke:#fff,color:#000
-    style D3 fill:#ffcc00,stroke:#fff,color:#000
-    style E1 fill:#66cc66,stroke:#fff,color:#fff
-    style E2 fill:#66cc66,stroke:#fff,color:#fff
-    style E3 fill:#66cc66,stroke:#fff,color:#fff
-
-    %% White arrows
-    linkStyle default stroke:#ffffff,stroke-width:2px,color:#ffffff
+    style A fill:#4da6ff,stroke:#2e6da4,color:#fff
+    style B1 fill:#005f99,stroke:#003d66,color:#fff
+    style B2 fill:#005f99,stroke:#003d66,color:#fff
+    style B3 fill:#005f99,stroke:#003d66,color:#fff
+    style C1 fill:#cc66ff,stroke:#9933cc,color:#fff
+    style C2 fill:#cc66ff,stroke:#9933cc,color:#fff
+    style C3 fill:#cc66ff,stroke:#9933cc,color:#fff
+    style D1 fill:#ffcc00,stroke:#b38600,color:#000
+    style D2 fill:#ffcc00,stroke:#b38600,color:#000
+    style D3 fill:#ffcc00,stroke:#b38600,color:#000
+    style E1 fill:#66cc66,stroke:#339933,color:#fff
+    style E2 fill:#66cc66,stroke:#339933,color:#fff
+    style E3 fill:#66cc66,stroke:#339933,color:#fff
 ```
 <div class='font-bold text-xl mt--2'>
     Incremental Model
