@@ -1,10 +1,12 @@
 ---
 transition: fade
+hideInToc: true
 ---
 
-# Giới thiệu về Incremental Model
+# Giới thiệu
 
-<hr>
+<!-- TODO: Slide to vcl vay? dung` default di -->
+
 <div class='mt-5'>
     <span v-click class='text-4xl leading-[1.5]'>
         <span class='font-bold'>Incremental Model</span> (Mô hình tăng trưởng) là một phương pháp phát triển phần mềm trong đó:
@@ -67,6 +69,7 @@ flowchart TB
 
 ---
 transition: fade
+hideInToc: true
 ---
 
 <!--
@@ -77,7 +80,7 @@ Flexible to Changes: Changes or new features can be added between increments. Th
 Combination of Linear and Iterative Approaches: Combines the structured approach of Waterfall with flexibility. Supports both planning and ongoing improvements.
 -->
 
-# **Đặc điểm chính (Characteristics)**
+# Đặc điểm chính
 
 <hr>
 <ul class='text-3xl mt-10'>

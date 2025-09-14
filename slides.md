@@ -6,35 +6,36 @@ coverBackgroundUrl: /assets/cover.jpeg
 colorSchema: light
 author: "Bugbilles"
 coverAuthor: Group 6
+hideInToc: true
 fonts:
   sans: Robot
   serif: Robot Slab
   mono: Fira Code
+themeConfig:
+  paginationX: r
+  paginationY: t
+  paginationPagesDisabled: [1]
 ---
 
 # Incremental Model
+
 ## Kiểm chứng phần mềm
 
 ---
-class: text-2xl
 transition: fade
+layout: table-of-contents
+hideInToc: true
 ---
 
-# **Mục lục**
-
-- I. Giới thiệu
-- II. Các giai đoạn của Incremental Model
-- III. Các loại của Incremental Model
-- IV. Khi nào sử dụng Incremental Model?
-- V. Ưu và nhược điểm
-- VI. So sánh Incremental và Waterfall
+# Mục lục
 
 ---
 layout: center
 class: text-center text-2xl
 ---
 
-# **GIỚI THIỆU VỀ INCREMENTAL MODEL**
+# Giới thiệu về Incremental Model
+
 Khái niệm, đặc điểm
 
 ---
