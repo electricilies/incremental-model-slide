@@ -1,9 +1,18 @@
 ---
+layout: center
+class: text-center
+---
+
+# Giới thiệu về Incremental Model
+
+Khái niệm, đặc điểm
+
+---
 transition: fade
 hideInToc: true
 ---
 
-# Giới thiệu
+## Giới thiệu
 
 <!-- TODO: Slide to vcl vay? dung` default di -->
 
@@ -80,7 +89,7 @@ Flexible to Changes: Changes or new features can be added between increments. Th
 Combination of Linear and Iterative Approaches: Combines the structured approach of Waterfall with flexibility. Supports both planning and ongoing improvements.
 -->
 
-# Đặc điểm chính
+## Đặc điểm chính
 
 - Partial System Delivery
 - Early Functionality
