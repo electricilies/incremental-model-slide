@@ -2,3 +2,4 @@ name: incremental-model
 windows:
   - editor: nvim
   - render: npm run dev
+  - git: lazygit
