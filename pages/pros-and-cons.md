@@ -6,7 +6,7 @@ class: text-center
 # Ưu và nhược điểm của Incremental Model
 
 ---
-transition: fade
+transition: slide-up
 hideInToc: true
 ---
 

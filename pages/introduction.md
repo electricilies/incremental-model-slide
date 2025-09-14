@@ -8,7 +8,6 @@ class: text-center
 Khái niệm, đặc điểm
 
 ---
-transition: fade
 hideInToc: true
 ---
 
@@ -35,7 +34,6 @@ hideInToc: true
 </div>
 
 ---
-transition: fade-out
 class: text-center
 ---
 
@@ -77,7 +75,7 @@ flowchart TB
 </Footnotes>
 
 ---
-transition: fade
+transition: slide-up
 hideInToc: true
 ---
 

@@ -7,6 +7,7 @@ colorSchema: light
 author: Buggilies
 coverAuthor: Group 6
 hideInToc: true
+transition: slide-left
 fonts:
   sans: Robot
   serif: Robot Slab
@@ -22,8 +23,8 @@ themeConfig:
 ## Kiểm chứng phần mềm
 
 ---
-transition: fade
 layout: table-of-contents
+transition: slide-up
 ---
 
 # Mục lục

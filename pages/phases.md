@@ -6,7 +6,7 @@ class: text-center
 # Các giai đoạn của Incremental Model
 
 ---
-transition: fade
+transition: slide-up
 hideInToc: true
 ---
 

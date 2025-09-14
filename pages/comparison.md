@@ -8,13 +8,14 @@ class: text-center
 ## Graphs, Differences
 
 ---
-transition: fade
 hideInToc: true
 ---
 
 ## Compare
 
-- Waterfall
+<br>
+
+### Waterfall
 
 ```mermaid
 flowchart LR
@@ -25,7 +26,7 @@ flowchart LR
     E --> F[Maintenance]
 ```
 
-- Incremental
+### Incremental
 
 ```mermaid
 flowchart LR
@@ -45,6 +46,9 @@ flowchart LR
     D3 --> E3[Implementation]
 ```
 
+---
+transition: slide-up
+hideInToc: true
 ---
 
 ## Differences
