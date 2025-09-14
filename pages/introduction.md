@@ -39,7 +39,7 @@ transition: fade-out
 class: text-center
 ---
 
-```mermaid
+```mermaid {scale: 0.8}
 flowchart TB
     A[Requirements] --> B1[Build-1]
     B1 --> C1[Design & Development]
@@ -72,9 +72,9 @@ flowchart TB
     style E3 fill:#66cc66,stroke:#339933,color:#fff
 ```
 
-<div class='font-bold text-xl mt--2'>
+<Footnotes>
     Incremental Model
-</div>
+</Footnotes>
 
 ---
 transition: fade
