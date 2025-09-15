@@ -6,16 +6,35 @@ class: text-center
 # Ưu và nhược điểm của Incremental Model
 
 ---
+layout: figure-side
 transition: slide-up
+figureX: l
 hideInToc: true
+figureUrl: publics/images/adv.jpg
 ---
 
-|         **Advantages**          |            **Disadvantages**            |
-| :-----------------------------: | :-------------------------------------: |
-|    Faster Software Delivery     | Requires Skilled Team & Proper Planning |
-| Clear Understanding for Clients |       Cost Can Increase Over Time       |
-|    Easy to Implement Changes    | Incomplete Requirement Gathering Issues |
-|    Effective Risk Management    | Lack of Smooth Flow Between Increments  |
-|   Flexible Criteria and Scope   |   High Effort to Fix Repeated Issues    |
-|         Cost-Effective          |                                         |
-|  Simpler Error Identification   |                                         |
+# Advantages
+
+- Faster Software Delivery
+- Clear Understanding for Clients
+- Easy to Implement Changes
+- Effective Risk Management
+- Flexible Criteria and Scope
+- Cost-Effective
+- Simpler Error Identification
+
+---
+layout: figure-side
+transition: slide-up
+figureX: r
+hideInToc: true
+figureUrl: publics/images/disadv.jpg
+---
+
+# Disadvantages
+
+- Requires Skilled Team & Proper Planning
+- Cost Can Increase Over Time
+- Incomplete Requirement Gathering Issues
+- Lack of Smooth Flow Between Increments
+- High Effort to Fix Repeated Issues
