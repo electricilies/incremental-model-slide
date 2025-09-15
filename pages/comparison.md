@@ -11,7 +11,7 @@ class: text-center
 hideInToc: true
 ---
 
-## Compare
+## Graphs
 
 <br>
 
