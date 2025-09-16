@@ -3,7 +3,7 @@ layout: center
 class: text-center
 ---
 
-# Ưu và nhược điểm của Incremental Model
+# Advantages anh Disadvantages
 
 ---
 layout: figure-side

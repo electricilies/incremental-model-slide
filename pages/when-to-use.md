@@ -3,7 +3,7 @@ layout: center
 class: text-center
 ---
 
-# Khi nào dùng Incremental Model
+# When to use incremental Model?
 
 ---
 layout: figure-side

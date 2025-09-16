@@ -87,6 +87,8 @@ Flexible to Changes: Changes or new features can be added between increments. Th
 Combination of Linear and Iterative Approaches: Combines the structured approach of Waterfall with flexibility. Supports both planning and ongoing improvements.
 -->
 
+Ưu và nhược điểm của Incremental Model
+
 ## Đặc điểm chính
 
 - Partial System Delivery
