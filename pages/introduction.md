@@ -15,12 +15,12 @@ hideInToc: true
 
 <!-- TODO: Slide to vcl vay? dung` default di -->
 
-<div class='mt-5'>
-    <span v-click class='text-4xl leading-[1.5]'>
+<div class='mt-8'>
+    <span v-click class='text-3xl leading-[1.5]'>
         <span class='font-bold'>Incremental Model</span> is a software developing process in such:
     </span>
     <div></div>
-    <ul class='text-3xl'>
+    <ul class='text-2xl'>
         <li v-click>
             The system is divided into smaller parts called <span class='text-red-600 font-bold'>increments</span>.
         </li>
