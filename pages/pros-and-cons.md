@@ -21,7 +21,6 @@ figureUrl: publics/images/adv.jpg
 - Effective Risk Management
 - Flexible Criteria and Scope
 - Cost-Effective
-- Simpler Error Identification
 
 ---
 layout: figure-side
