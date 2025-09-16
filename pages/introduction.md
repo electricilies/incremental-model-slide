@@ -3,32 +3,32 @@ layout: center
 class: text-center
 ---
 
-# Giới thiệu về Incremental Model
+# Introduction
 
-Khái niệm, đặc điểm
+Definition, Characteristics
 
 ---
 hideInToc: true
 ---
 
-## Giới thiệu
+## **Introduction**
 
 <!-- TODO: Slide to vcl vay? dung` default di -->
 
 <div class='mt-5'>
     <span v-click class='text-4xl leading-[1.5]'>
-        <span class='font-bold'>Incremental Model</span> (Mô hình tăng trưởng) là một phương pháp phát triển phần mềm trong đó:
+        <span class='font-bold'>Incremental Model</span> is a software developing process in such:
     </span>
     <div></div>
     <ul class='text-3xl'>
         <li v-click>
-            Hệ thống được chia thành các <span class='text-red-600 font-bold'>module</span> nhỏ.
+            The system is divided into smaller parts called <span class='text-red-600 font-bold'>increments</span>.
         </li>
         <li v-click>
-            Mỗi module được phát triển, kiểm thử và <span class='text-red-600 font-bold'>triển khai độc lập</span> với nhau.
+            Each increment is developed, tested and implemented <span class='text-red-600 font-bold'>independently</span> with each other.
         </li>
         <li v-click>
-            Các module được tích hợp để tạo thành <span class='text-red-600 font-bold'>hệ thống hoàn chỉnh</span>.
+            Each increment builds upon the previous one by adding new functionality, until the <span class='text-red-600 font-bold'>complete system</span> is finished.
         </li>
     </ul>
 </div>
@@ -87,9 +87,7 @@ Flexible to Changes: Changes or new features can be added between increments. Th
 Combination of Linear and Iterative Approaches: Combines the structured approach of Waterfall with flexibility. Supports both planning and ongoing improvements.
 -->
 
-Ưu và nhược điểm của Incremental Model
-
-## Đặc điểm chính
+## **Characteristics**
 
 - Partial System Delivery
 - Early Functionality
