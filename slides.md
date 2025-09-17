@@ -25,9 +25,10 @@ themeConfig:
 ---
 layout: table-of-contents
 transition: slide-up
+hideInToc: true
 ---
 
-# Mục lục
+# Table of contents
 
 ---
 src: ./pages/introduction.md
