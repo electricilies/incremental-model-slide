@@ -12,6 +12,8 @@ on:
       - snippets/**
       - setup/**
       - package.json
+    tags:
+      - v*
 
 concurrency:
   group: pages
